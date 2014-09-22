@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3926AF11-3D8F-4A23-AE75-F4D0DD9D0309</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iSocial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>60F7EDEE-A999-4031-93E5-D1FE80FBB6F3</key>
+		<string>https://github.com/kantanand/iSocial/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iSocial/iSocial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>60F7EDEE-A999-4031-93E5-D1FE80FBB6F3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kantanand/iSocial/trunk/iSocial/iSocial.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>60F7EDEE-A999-4031-93E5-D1FE80FBB6F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>60F7EDEE-A999-4031-93E5-D1FE80FBB6F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iSocial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
