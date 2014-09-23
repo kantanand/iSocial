@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C612924419D0B57F00B75E61 /* SPLoginPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C612924219D0B57F00B75E61 /* SPLoginPhoneViewController.m */; };
+		C612924519D0B57F00B75E61 /* SPLoginPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C612924319D0B57F00B75E61 /* SPLoginPhoneViewController.xib */; };
+		C612924719D0B6CA00B75E61 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = C612924619D0B6CA00B75E61 /* login.png */; };
 		C6E45E7319D0B44900D14E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E45E7219D0B44900D14E8E /* Foundation.framework */; };
 		C6E45E7519D0B44900D14E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E45E7419D0B44900D14E8E /* CoreGraphics.framework */; };
 		C6E45E7719D0B44900D14E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E45E7619D0B44900D14E8E /* UIKit.framework */; };
@@ -32,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C612924119D0B57F00B75E61 /* SPLoginPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPLoginPhoneViewController.h; path = PhoneViewController/SPLoginPhoneViewController.h; sourceTree = "<group>"; };
+		C612924219D0B57F00B75E61 /* SPLoginPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPLoginPhoneViewController.m; path = PhoneViewController/SPLoginPhoneViewController.m; sourceTree = "<group>"; };
+		C612924319D0B57F00B75E61 /* SPLoginPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPLoginPhoneViewController.xib; path = PhoneViewController/SPLoginPhoneViewController.xib; sourceTree = "<group>"; };
+		C612924619D0B6CA00B75E61 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../ios_learning/learning_isocial/iSocial/iSocial/Images.xcassets/icons/login.png; sourceTree = "<group>"; };
 		C6E45E6F19D0B44900D14E8E /* iSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E45E7219D0B44900D14E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6E45E7419D0B44900D14E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +84,10 @@
 		C6E45E6619D0B44900D14E8E = {
 			isa = PBXGroup;
 			children = (
+				C612924619D0B6CA00B75E61 /* login.png */,
+				C612924119D0B57F00B75E61 /* SPLoginPhoneViewController.h */,
+				C612924219D0B57F00B75E61 /* SPLoginPhoneViewController.m */,
+				C612924319D0B57F00B75E61 /* SPLoginPhoneViewController.xib */,
 				C6E45E7819D0B44900D14E8E /* iSocial */,
 				C6E45E9119D0B44900D14E8E /* iSocialTests */,
 				C6E45E7119D0B44900D14E8E /* Frameworks */,
@@ -224,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E45E7D19D0B44900D14E8E /* InfoPlist.strings in Resources */,
+				C612924719D0B6CA00B75E61 /* login.png in Resources */,
 				C6E45E8519D0B44900D14E8E /* Images.xcassets in Resources */,
+				C612924519D0B57F00B75E61 /* SPLoginPhoneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E45E7F19D0B44900D14E8E /* main.m in Sources */,
+				C612924419D0B57F00B75E61 /* SPLoginPhoneViewController.m in Sources */,
 				C6E45E8319D0B44900D14E8E /* SPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +461,7 @@
 				C6E45E9D19D0B44900D14E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6E45E9E19D0B44900D14E8E /* Build configuration list for PBXNativeTarget "iSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +470,7 @@
 				C6E45EA019D0B44900D14E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
